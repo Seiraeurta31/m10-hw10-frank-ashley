@@ -21,19 +21,19 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23a1a1a1' fill-opacity='0.59' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-.main__article_h1 {
+.article__h1 {
   font-size: 2.5rem;
 }
 
-.main__article_h1, .main__article_h2 {
+.article__h1, .article__h2 {
   text-align: center;
 }
 
-.header__nav_logo, .header__nav_link, .main__article_in-copy-link {
+.header__nav_logo, .header__nav_link, .article__txt_link {
   text-decoration: none;
 }
 
-.header__nav_logo:hover, .header__nav_link:hover, .main__article_in-copy-link:hover {
+.header__nav_logo:hover, .header__nav_link:hover, .article__txt_link:hover {
   text-decoration: underline;
 }
 
@@ -48,11 +48,11 @@ body {
   color: var(--off-white);
 }
 
-.main__article_in-copy-link {
+.article__txt_link {
   color: var(--danger-color);
 }
 
-.main__article, .header__nav{
+.article, .header__nav{
   max-width: 1200px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -71,7 +71,7 @@ body {
   text-transform: uppercase;
 }
 
-.hero, .main__article {
+.hero, .article {
   margin-bottom: 96px;
   box-shadow: 4px 4px 10px var(--gray);
   background-color: var(--white);
@@ -106,16 +106,16 @@ body {
   cursor: pointer;
 }
 
-.main__article {
+.article {
   padding: 48px 96px;
 }
 
-.main__article_copy {
+.article__txt {
   line-height: 1.75;
   margin-bottom: 48px;;
 }
 
-.main__article_img {
+.article__img {
   float: left;
   width: 300px;
   height: auto;
